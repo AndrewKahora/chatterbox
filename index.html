@@ -23,18 +23,17 @@
        <fieldset>
          <legend>Personal information</legend>
            Name:<br>
-            <input type="text" name="firstname" value=""><br>
+            <input type="text" name="name" value=""><br>
            E-mail:<br>
             <input type="email" value=""><br>
            Chatrooms:
-            <div class="dropdown">
-             <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-              <div id="myDropdown" class="dropdown-content">
-               <a href="#">Team A</a>
-               <a href="#">Team B</a>
-               <a href="#">Team C</a>
-             </div>
-           </div>
+            <button class="expanded dropdown button">Dropdown Button</button>
+             <ul class="dropdown menu" data-dropdown-menu>
+                 <li><a href="#">Item 1</a></li>
+                 <li><a href="#">Item 2</a></li>
+                 <li><a href="#">Item 3</a></li>
+                 <li><a href="#">Item 4</a></li>
+            </ul>
               <br>
            Comments:
            <input class="textarea" type="text" value="">
