@@ -8,8 +8,8 @@ h1{
 body{
     background-image: url(../images/HiRes1.jpg);
     background-image: no-repeat;
-    background-image: center center fixed;
-    -webkit-background-size: cover;
+    background-image: center;
+    -webkit-background-size:;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -22,5 +22,8 @@ body{
      width: 340px;
      height: 500px;
      text-align: center;
+}
+.textarea{
+    height: 100px;
 }
 
