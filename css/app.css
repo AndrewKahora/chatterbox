@@ -1,10 +1,20 @@
 h1{
-    color: aqua;
+    color: #586c6c;
     font-size: 34px;
     text-align: center;
+    font-family: 'Pacifico', cursive;
 }
 
 body{
     background-image: url(../images/HiRes1.jpg);
-
+    background-image: no-repeat;
+    background-image: center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    height: auto;
+    position: static;
+    width: 100%;
 }
+
